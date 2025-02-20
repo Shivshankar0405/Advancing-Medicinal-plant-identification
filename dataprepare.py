@@ -23,7 +23,7 @@ def create_metadata(root_dir):
 
 if __name__ == "__main__":
     # Update dataset_path if needed
-    dataset_path = r"C:/Users/shrut/Desktop/Project/Medicinal plant dataset"
+    dataset_path = r"Project/Medicinal plant dataset"
     df = create_metadata(dataset_path)
     
     if df is not None:
