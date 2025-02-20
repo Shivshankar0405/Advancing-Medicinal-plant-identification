@@ -22,7 +22,7 @@ def check_corrupted_images(root_dir):
     return corrupted
 
 if __name__ == "__main__":
-    dataset_path = r"C:/Users/shrut/Desktop/project/Medicinal plant dataset"
+    dataset_path = r"project/Medicinal plant dataset"
     if not os.path.exists(dataset_path):
         print(f"Error: Dataset directory not found at {dataset_path}")
         exit(1)
